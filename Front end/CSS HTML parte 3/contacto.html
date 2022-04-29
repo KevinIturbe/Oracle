@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>  
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header></header>
+
+    <main>
+        <form action="">
+
+            <label for="nombreApellido">Nombre y Apellido</label>
+            <input type="text" id="nombreApellido" class="input-padron" required placeholder="placeholder">
+
+            <label for="correo">Correo</label >
+            <input type="email" id="correo" class="input-padron" required placeholder="placeholder">
+
+            <label for="telefono">Teléfono</label >
+            <input type="tel" id="telefono" class="input-padron" required placeholder="placeholder">
+
+
+            <label for="comentario">Comentario</label>
+            <textarea name="" id="comentario" cols="120%" rows="10" class="input-padron"></textarea>
+
+            <fieldset>
+                
+                <legend>¿Cómo desea ser contactado?</legend>
+
+                <label for="eleccion"><input type="radio" name="contacto" value="eleccion" id="eleccion">Teléfono</label>
+                
+                <label for="whatsapp"><input type="radio" name="contacto"  value="whatsapp" id="eleccion">WhatsApp</label>
+                
+                <label for="email"><input type="radio" name="contacto"  value="eleccion" id="email" checked>
+            Email</label>
+                
+            </fieldset>
+            <div>
+                <legend>DropDown Menu</legend>
+
+                <select name="" id="">
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </div>
+
+            
+
+            <label class="checkbox"><input type="checkbox">Suscribirse</label>
+            
+
+            <input type="submit" value="Enviar formulario" class="confirmacion">
+
+
+        </form>
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
