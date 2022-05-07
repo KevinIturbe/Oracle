@@ -1,0 +1,36 @@
+div{
+    background-color: black;
+    border: 15px solid black;
+    width: 200px;
+    height:200px;
+    border-radius: 90%;
+    padding: 5%;
+    display: inline-block
+}
+
+.botonCuadrado{
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    border-color: rgb(235, 138, 178);
+}
+
+.botonTriangulo{
+
+    border-radius: 0%;
+    border-color: gree
+}
+
+.botonEquis{
+    align-content: center;
+    font-size: 180px;
+    color: cornflowerblue;
+}
+
+
+.botonCirculo{
+    width: 150px;
+    height: 150px;
+    border-color: tomato;
+    
+}

@@ -1,0 +1,74 @@
+body{
+    background:linear-gradient(  rgb(191, 236, 236), rgb(43, 88, 172));
+    width: 940px;
+    margin: 50px auto;
+}
+
+.mensaje{
+    margin: 1em;
+    height: 400px;
+    width: 400px;
+    left: 240px;
+    top: 168px;
+}
+
+button{
+    border-radius: 24px;
+    width: 10%;
+    height: 15%;
+    border: 1px solid darkblue;
+    color: darkblue;
+    width: 328px;
+    height: 67px;
+}
+
+.azul{background-color: darkblue;
+    color: aliceblue;}
+
+.section1{
+   
+    width: 49%;
+    float: left;
+    height: 600px;
+    text-align: center;
+    box-shadow: black;
+}
+
+.section-right{
+    float: right;
+    
+    width: 49%;
+    height: 600px;
+    text-align: center;
+    box-shadow: 1em 1em 1em black;
+}
+
+label{
+    font-weight: bold;
+}
+
+.mensaje-encriptado{
+    height: 250px;
+    width: 80%;
+    border-radius: 32px;
+    
+}
+
+
+.section{
+    clear: both;
+    
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+p{  
+  
+    clear: both;
+    margin: 2em;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+}
